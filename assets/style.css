@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: 'Assistant', sans-serif;
+}
+
+header {
+	padding: 0.5rem;
+	padding-bottom: 1rem;
+	background-color: white;
+	color: black;
+}
+
+h5 {
+	font-size: 1.5rem;
+	font-weight: 400;
+	font-family: 'Assistant', sans-serif;
+	padding-top: 7rem;
+	padding-left: 7rem;
+	padding-right: 7rem
+	padding-bottom: .5rem;
+	margin: 5rem;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.column-left {
+	width: 15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.column-center {
+	width: 60%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.column-right {
+	width: 15%;
+	display: flex;
+	justify-content: right;
+	flex-wrap: wrap;
+}
+
+.column-center-60 {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.row-logo {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.row-names {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	font-family: 'Assistant', sans-serif;
+	font-size: 0.67rem;
+	font-weight: 700;
+	
+}
+
+.wpi-logo {
+	width: 100%;
+ 	max-width: 10rem;
+  	height: auto;
+	padding: .4rem;
+}
+
+.vox-logo {
+	width: 100%;
+ 	max-width: 15rem;
+  	max-height: 6rem;
+	padding: .4rem;
+}
+
+.sonicvisions-logo {
+	width: 100%;
+ 	max-width: 50rem;
+  	max-height: 30rem;
+	padding: .4rem;
+}
+
+.sonicvisions {
+	max-width: 46rem;
+  	height: auto;
+}
+
+.sonicvisions2 {
+	max-width: 44rem;
+  	height: auto;
+}
+
+.login-box {
+	text-align: center;
+	font-size: 0.75rem;
+	background-color: black;
+	color: white;
+	padding: .4rem;
+	border-radius: 1rem;
+}
+
+.button-boxes {
+	text-align: center;
+}
+
+.button-boxes a {
+	color: #6c3483;
+}
+
+/*
+
+@media only screen and (max-width: 1050px) {
+	
+}
+
+@media only screen and (max-width: 1000px) {
+	
+}
+
+@media only screen and (max-width: 800px) {
+
+}
+
+@media only screen and (max-width: 450px) {
+
+}
+
+*/
